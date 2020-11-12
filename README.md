@@ -20,14 +20,37 @@ Where options represents an object containing configuration and design propertie
 <table style="width:100%">
     <thead>
         <tr>
-            <th>Propertie</th>
+            <th>Property</th>
             <th>Usage</tr>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td></td>
-            <td></td>
+            <td>yesBg</td>
+            <td>This defines the background color of the "Yes" button of the confirmation modal. The above illustrated in the image was red.</td>
+        </tr>
+        <tr>
+            <td>noBg</td>
+            <td>This defines the background color of the "No" button of the confirmation modal. The above illustrated in the image was green.</td>
+        </tr>
+        <tr>
+            <td>backColor</td>
+            <td>This defines the background color of the confirmation modal itself. The above illustrated in the image was a hex value (#2a2b2d).</td>
+        </tr>
+        <tr>
+            <td>textColor</td>
+            <td>This defines the text (font) color of the contents of the confirmation modal. The above illustrated in the image was white.</td>
         </tr>
     </tbody>
 </table>
+
+
+In summary, the above modal was initialized with the following code:
+```js
+        confirmo.init({
+			yesBg:'red',
+			noBg:'green',
+			backColor:'#2a2b2d',
+			textColor:'white'
+		});
+```
