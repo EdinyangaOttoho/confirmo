@@ -17,7 +17,7 @@ confirmo.init(options)
 ```
 Where options represents an object containing configuration and design properties of the modal such as:
 
-<table>
+<table style="width:100%">
     <thead>
         <tr>
             <th>Propertie</th>
