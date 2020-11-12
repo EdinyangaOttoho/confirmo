@@ -1,7 +1,9 @@
 # confirmo
 A lightweight front-end confirmation library that helps you to get confirmations before actions are taken on your web apps
 
-![](./preview.JPG)
+    <center>
+        <img src="preview.JPG">
+    </center>
 
 ## Installation/Usage
 To use confirmo in your project, simply add the links to the CSS and JS source files which are included in the source code, named confiro.css and confirmo.js respectively.
