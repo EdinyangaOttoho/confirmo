@@ -47,10 +47,10 @@ Where options represents an object containing configuration and design propertie
 
 In summary, the above modal was initialized with the following code:
 ```js
-        confirmo.init({
-			yesBg:'red',
-			noBg:'green',
-			backColor:'#2a2b2d',
-			textColor:'white'
-		});
+confirmo.init({
+   yesBg:'red',
+   noBg:'green',
+   backColor:'#2a2b2d',
+   textColor:'white'
+});
 ```
