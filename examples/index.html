@@ -2,33 +2,23 @@
 <html>
 <head>
 	<meta name="viewport" content="user-scalable=0,initial-scale=1.0,width=device-width">
-	<link rel="stylesheet" href="../src/contributors.css">
-	<link rel="stylesheet" href="../src/confirmo.css" crossorigin="anonymous">
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="./src/confirmo.css"/>
 	<title>Confirmo Implementation</title>
 </head>
 <body>
 
 	<button class="btn" confirmo-message="Hello world" confirmo-func="hello">First Trigger</button>
 	<button class="btn" confirmo-message="It's me" confirmo-func="hi">Second Trigger</button>
-	<button class="btn3" onclick="firm(' the user should parse what the wanna display out as the function parameter  !of firm so therefore replace the text with what you wanna display on your screen')"> confirm </button>
-	<script src="../src/confirmo.js" crossorigin=""></script>
-	<script src="../src/contributors.js"></script>
-	<!--
-		stop using this i think some browsings fails to load cause of mime or something like that 
-		<script type="text/javascript" src="./src/confirmo.js" ></script>
-	-->
-	<!--init confirmo -->
+
+	<script type="text/javascript" src="./src/confirmo.js"></script>
+
 	<script>
-		/*your NO should be in red not green 
-		cause your design should always speak with colors 
-		*/
 		confirmo.init({
-			yesBg:'green',
-			noBg:'red'
+			yesBg:'red',
+			noBg:'green'
 		});
 		confirmo.show({
-			msg:"hello ! this is just a sample of how confirmo works , replace this text with what you want to prompt  ",
+			msg:"Are you sure you want to delete the file? The owner won't have access to it again",
 			callback:function (){
 				return true;
 			}
