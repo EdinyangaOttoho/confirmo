@@ -54,3 +54,9 @@ confirmo.init({
    textColor:'white'
 });
 ```
+Note that the above code won't bring up any modal for you. You have two approaches of wiring your modals:
+
+<ol type="I">
+    <li>HTML Attributes</li>
+    <li>Programmatic Trigger</li>
+</ol>
