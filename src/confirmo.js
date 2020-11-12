@@ -1,3 +1,8 @@
+/* 
+   confirmo is a simple and light weight js library that works as sweet alert js 
+   written by EdinyangaOttoho
+   2020
+ */
 var confirmoinit = document.createElement('div');
 confirmoinit.className = 'confirmo-backdrop';
 confirmoinit.id = 'confirmo-modal';
@@ -19,6 +24,7 @@ function showconfirmomodal(msg) {
 function closeconfirmomodal() {
 	var confirmomodalstate = false;
 	document.getElementById("confirmo-modal").style.display = "none";
+	
 }
 var confirmo = {
 	init:function(props={}) {
@@ -39,6 +45,7 @@ var confirmo = {
 					var confirmofunctionname = this.getAttribute("confirmo-func") + "()";
 					showconfirmomodal(this.getAttribute('confirmo-message'));
 					document.getElementById("confirmo-left").setAttribute('onclick', confirmofunctionname+';closeconfirmomodal()');
+				
 				}
 			}
 		}
@@ -72,4 +79,6 @@ var confirmo = {
 			}
 		}
 	}
+
 };
+
