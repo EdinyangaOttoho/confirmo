@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+.confirmo-backdrop {
+	font-family: 'Mukta', sans-serif;
+	position:fixed;
+	background-color:rgba(0,0,0,0.7);
+	top:0px;
+	left:0px;
+	z-index:2000;
+	width:100vw;
+	height:100vh;
+	padding:10px;
+	padding-top:15vh;
+	box-sizing:border-box;
+	animation:confirmo-come-up 0.5s forwards ease-in-out;
+	display:none;
+}
+.confirmo-modal {
+	font-family: 'Mukta', sans-serif;
+	width:400px;
+	box-sizing:border-box;
+	max-width:100%;
+	background-color:white;
+	padding:20px;
+	box-sizing:border-box;
+	box-shadow:0px 2px 4px #2a2b2d;
+	border-radius:15px;
+	animation:confirmo-fade-in 0.5s forwards ease-in-out;
+	position:relative;
+	padding-top:30px;
+	padding-bottom:65px
+}
+.confirmo-content {
+	font-family: 'Mukta', sans-serif;
+	white-space:break-word
+}
+.confirmo-close {
+	background-color:transparent;
+	color:gray;
+	font-weight:bold;
+	border:0px;
+	outline:none!important;
+	font-size:20px;
+	cursor:hand!important
+}
+.confirmo-controls {
+	margin-top:20px
+}
+.confirmo-btn {
+	border-radius:15px;
+	border:0px;
+	color:white;
+	padding:10px;
+	transition:0.2s;
+	outline:none!important;
+	font-family: 'Mukta', sans-serif;
+	cursor:hand!important;
+	padding-left:20px;
+	padding-right:20px;
+	font-weight:bold;
+	box-shadow:0px 2px 4px #f2f2f2
+}
+.confirmo-btn:hover {
+	filter:brightness(90%);
+}
+.confirmo-btn:active {
+	filter:brightness(70%);
+}
+.confirmo-btn:focus {
+	filter:brightness(80%);
+}
+#confirmo-left {
+	background-color:tomato;
+	cursor:hand;
+	float:left;
+	margin-left:5px;
+}
+#confirmo-right {
+	background-color:green;
+	cursor:hand;
+	float:right;
+	margin-right:5px;
+}
+@keyframes confirmo-fade-in {
+	from {
+		top:-100px;
+		opacity:0;
+	}
+	to {
+		top:0px;
+		opacity:1
+	}
+}
+@keyframes confirmo-come-up {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1
+	}
+}
