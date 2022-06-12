@@ -99,4 +99,4 @@ Good luck.
 In order to use the HTML, you **MUST** initialize the library using confirmo.init(), else, the HTML attribute usage won't work. That also is a means of customizing your modal to your project's design. Meanwhile, the confirmo.show() can work without the confirmo.init(), except that the default UI will be rendered on popup.
 
 ## Contributions
-Everyone is opened to contribute. Just hit me up via +2348117093601 or elzucky@gmail.com or Make a merge request
+Everyone is opened to contribute. Just hit me up via +2349122455484 or elzucky@gmail.com or Make a merge request
